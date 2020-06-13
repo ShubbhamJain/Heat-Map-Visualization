@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: lightblue;
+  font-family: "Abel", sans-serif;
+}
+
+#title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#description {
+  font-size: 24px;
+}
+
+#svgContainer {
+  background-color: #fff;
+  display: inline;
+}
+
+.cell:hover {
+  stroke: #000;
+}
+
+#tooltip {
+  font-family: "Abel", sans-serif;
+  position: absolute;
+  width: 120px;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.5;
+  padding: 8px 5px;
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+}
